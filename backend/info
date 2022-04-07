@@ -1,0 +1,10 @@
+Use the command go get -u all to update all the packages.
+
+To add all dependencies for a package in your module, run a command like the one below ("." refers to the package in the current directory):
+
+$ go get .
+To add a specific dependency, specify its module path as an argument to the command.
+
+$ go get example.com/theirmodule
+
+go clean --cache
